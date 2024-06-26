@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.wave__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedex__wave {
+  font-size: 53px;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 1px 1px #e45353;
+  letter-spacing: 2px;
+  color: rgb(29, 124, 232); 
+}
+
+.pokedex__container{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.pokedex__search form {
+  display: flex; 
+  overflow: hidden; 
+  border: none;
+  border-radius: 4px;
+  height: 2.9em;
+
+  font-size: 15px;
+  border: 1px solid #53a9e4;
+}
+
+.pokedex__search input[type="text"] {
+  flex-grow: 1; 
+  padding: 12px 16px;
+  border: none; 
+  font-size: 20px;
+  width: 200px;
+  color: black;
+  font-weight: bold;
+}
+
+.pokedex__search button {
+  background-color: #df2b17; 
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.2s; 
+}
+
+.pokedex__search button:hover {
+  background-color: #c0392b; 
+}
+
+.pokedex__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokedex__search {
+  margin-bottom: 20px;
+}
+
+.pokedex__pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pokedex__pagination button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #df2b17;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pokedex__pagination button:hover {
+  background-color: #cc0000;
+}
+
+.pokedex__pagination button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.pokedex__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .pokedex__grid {
+      grid-template-columns: 1fr;
+      justify-items: center;
+  }
+}
+
+
+.wrapper__typing {
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 1.2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}

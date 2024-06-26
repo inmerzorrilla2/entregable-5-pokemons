@@ -1,0 +1,39 @@
+
+
+  .poke-select select {
+    appearance: none; 
+    background-color: white; 
+   border: none;
+    border-radius: 8px;        
+    padding: 13px 20px;
+    margin-top: 1px;
+    /* margin-left:100px; */
+    font-size: 18px;
+    color: #2497e4;
+    width: 250px;     
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: all 0.2s ease; 
+  }
+  
+  .poke-select select:hover {
+    background-color: white; 
+    transform: translateY(-2px);
+  }
+  
+  .poke-select select:focus {
+    outline: none; 
+    border-color: #c0392b; 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .poke-select option {
+    background-color: #f0f0f0;
+  }
+  
+
+  .all_pokemons {
+    font-weight: bold;
+    color: #e74c3c; 
+  }
+  

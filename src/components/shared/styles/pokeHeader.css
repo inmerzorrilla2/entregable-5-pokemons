@@ -1,0 +1,47 @@
+/* .pokeheader {
+    width: 100%;
+
+}
+
+.pokeheader_red {
+    background-color: red;
+    height: 150px;
+}
+
+.okeheader_img{
+    width: 250px;
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    
+}
+
+.pokeheader_black{
+    position: relative;
+    background-color: black;
+    height: 30px;
+}
+
+.pokeheader_outcircle{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    background-color: white;
+    border: 7px solid black;
+    border-radius: 50%;
+    width: 80px;
+    aspect-ratio: 1;
+} */
+
+/* .pokeheader_incircle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    border: 5px solid black;
+    aspect-ratio: 1;
+    background-color: gray;
+    border-radius: 50%;
+} */

@@ -1,0 +1,48 @@
+.img_footer {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    display: block; 
+    border-radius: 10%;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.img_footer:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.pokeFooter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	background-color: #f5282885;
+	box-shadow: 0 0 10px rgba(233, 14, 14, 0.1);
+}
+
+.pokeFooter a {
+	color: #333;
+	text-decoration: none;
+}
+
+.pokeFooter a:hover {
+	color: #666;
+}
+
+.academlo {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.academlo:hover {
+	transform: scale(1.1);
+	transition: all 0.3s ease-in-out;
+}

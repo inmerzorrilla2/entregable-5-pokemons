@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+.pokecard {
+  position: relative;
+  background-color: lightgray;
+  width: 250px;
+  /* border: 5px solid #e74c3c; */
+  /* border-radius: 40px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  /* box-shadow: 0 0 12px rgba(247, 0, 0, 0.7); */
+  cursor: pointer;
+  gap: 10px;
+  margin: 10px;
+}
+
+.pokecard:hover {
+  transform: scale(1.1);
+  /* background-color: #f80404; */
+  /* box-shadow: 0 0 20px rgba(247, 0, 0, 0.9); */
+}
+
+.pokecard__back {
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100px;
+  background-color: #130202;
+}
+
+.pokecard__img {
+  position: absolute;
+  width: 70%;
+  top: -20px;
+}
+
+.pokecard__name {
+  padding-top: 80px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.pokecard__types {
+  display: flex;
+  margin: 5px 0;
+}
+
+.pokecard__types div {
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  margin: 0 5px;
+}
+
+.pokecard__hr {
+  width: 80%;
+  margin: 5px 0;
+  border-color: #555;
+  border-top: 2px solid #555;
+}
+
+.pokecard__stats {
+  padding-bottom: 10px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 10px;
+}
+
+.pokecard__stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1em;
+  color: #333;
+}
+
+.slot2::before {
+  content: "/";
+  margin: 0 5px;
+  color: #fff;
+}
+
+.grass {
+  background-color: rgba(94, 255, 94, 0.856);
+}
+
+.fire {
+  background-color: rgb(236, 86, 86);
+}
+
+.water {
+  background-color: rgb(84, 84, 222);
+}
+
+.ground {
+  background-color: beige;
+}
+
+.normal {
+  background-color: rgb(255, 255, 255);
+}
+
+.fighting {
+  background-color: maroon;
+}
+
+.bug {
+  background-color: rgb(13, 125, 13);
+} 
+
+.electric {
+  background-color: gold;
+}
+
+.poison {
+  background-color: purple;
+} 
+
+.fairy {
+  background-color: lightpink;
+}
+
+.psychic {
+  background-color: silver;
+}
+
+.rock {
+  background-color: brown;
+}
+
+.ice {
+  background-color: rgb(60, 242, 255);
+}
+
+.dragon {
+  background-color: #17517e;
+}
+
+.dark {
+  background-color: #232323;
+}
+
+.steel {
+  background-color: rgb(121, 121, 121);
+}
